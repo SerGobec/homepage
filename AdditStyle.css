@@ -36,3 +36,48 @@
 .articlesLink:hover{
     color:#9b111e;
 }
+
+
+/* Character / Superpower  */
+
+.superpower{
+  padding: 5px;
+  border:1px solid;
+  /*border-image: linear-gradient(-45deg, #A50044,#004D98);*/
+  border-image: linear-gradient(-45deg, #b4b2b3,#dfdfdf);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  border-image-slice: 1;
+  position: relative;
+}
+
+.effect{
+  margin: 0px;
+  font-size: 0.9em;
+
+}
+
+.green{
+ color: rgb(41, 172, 41);
+}
+
+.EffectsOfSuperp{
+margin: 0px;
+font-size: 1em;
+color: rgb(83, 54, 0);
+}
+
+.prompt{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 0.7em;
+  color: rgb(158, 157, 157);
+}
+
+.promptPar{
+  margin: 0px;
+}
+
+.play_sound_monkey{
+  cursor: pointer;
+}
