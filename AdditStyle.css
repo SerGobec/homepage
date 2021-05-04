@@ -1,0 +1,9 @@
+
+/* contacts  */
+.contacts li a.instagram:hover {
+    color: #bb3a7a;
+}
+
+.contacts li a.twitter:hover {
+    color: #66e1f1;
+}
