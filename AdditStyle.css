@@ -7,3 +7,32 @@
 .contacts li a.twitter:hover {
     color: #66e1f1;
 }
+
+.intrFacts {
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
+}
+
+.intrFacts:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.intrFacts > li::before {
+    display: none;
+}
+.intrFacts > li:not(:last-child) {
+    margin-bottom: 1em;
+}
+.intrFacts > li p {
+    margin: 0;
+}
+
+.articlesLink{
+  color: #2F2AFF;
+  transition: 1s linear;
+}
+
+.articlesLink:hover{
+    color:#9b111e;
+}
