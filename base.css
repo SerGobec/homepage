@@ -1005,7 +1005,7 @@
   main {
     overflow: auto;
     z-index: 2;
-    background: white;
+    background: #7862ad80;
     position: relative;
   }
   main:nth-last-child(3) {
